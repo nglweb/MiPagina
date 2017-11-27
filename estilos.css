@@ -231,11 +231,20 @@
 }
 
 
-.carousel{
+.carruselxl{
 	width: 80%;
 	height: 60%;
+	margin: 10%;
 	
 }
+
+.carruselxs{
+	width: 60%;
+	height: 40%;
+	
+	
+}
+
 
 
 #ejcv{
