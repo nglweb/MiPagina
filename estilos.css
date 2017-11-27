@@ -1,0 +1,476 @@
+.header{
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	border-bottom: solid 1px grey;
+	position: fixed;
+	z-index: 1000;
+}
+
+
+.header nav a {
+	color: black;
+	font-family:  'Julius Sans One', sans-serif;
+	font-size: 20px;
+	height: 100%;
+	margin: 2px;
+	border-bottom: 4px solid transparent;
+	
+}
+.header nav ul a:hover {
+	height: 100%;
+	color: darkred;
+	border-bottom: 4px solid darkred;
+	margin: 2px;
+}
+
+.header nav a h1{
+	color: black;
+	font-family:'Righteous', cursive ;
+	
+}
+
+
+.body{
+	background-color: #fafafa;
+}
+
+.parallax1{ 
+   
+    background-image: url("img/82395.jpg");
+
+   
+    height: 662px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#home {
+	text-align: center;
+}
+
+#home h1{
+	font-size: 98px;
+	color: white;
+	font-family: "Refreshen and Softening";
+	
+	
+}
+
+#home p{
+	color:beige;
+	text-align: justify;
+	margin-left: 27%;
+	margin-right: 10%;
+	
+	
+}
+
+.titulo{
+	text-align: center;
+	color: black;
+	font-family:  'Poiret One', cursive;
+	font-size: 65px;
+	
+	
+}
+
+.rojo{
+	width: 80%;
+	height: 0.3px;
+	background-color: #E74C3C;
+}
+
+#conceptos{
+	width: 100%;
+	height: 550px;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+
+#conceptos #comp{
+	height: 100%;
+	width: 33%;
+}
+
+#conceptos #des{
+	height: 100%;
+	width: 33%;
+	
+}
+
+
+
+#conceptos #esp{
+	width: 33.3%;
+	height: 400px;
+	background-color: rgba(250,250,250,0.8);
+}
+
+
+.text{
+	margin-top: 50px;
+	color: black;
+	display: none;
+}
+
+
+
+#conceptos button{
+	margin: 5px;
+	width: 120px;
+	height: 60px;
+	margin-left: 5px;
+	padding: 0px;
+	margin-right: 0px;
+}
+
+.close{
+	margin-top: 5px;
+	display: none;
+	
+}
+
+
+#conceptos #esp button{
+	width: 40px;
+	height: 40px;
+}
+
+#entrevistasbody{
+	text-align: center;
+	margin-top: 0px;
+	width: 100%;
+	height: 685px;
+	
+}
+
+#entrevistasbody #titulo{
+	text-align: center;
+	color: black;
+	font-family: 'Poiret One', cursive;
+	font-size: 65px;
+	background-color: rgba(250,250,250,0.8);
+	width: 100%;
+	height: 70px;
+	
+}
+
+
+
+
+
+
+.parallax3{ 
+   
+    background-image: url("img/imagen1.jpg");
+    height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.row{
+	width: 100%;
+}
+
+.card{
+	text-align: center;
+	width:200px;
+	height: 230px;
+	padding: 5px;
+	margin: 5px;
+	margin-left: 28%;
+	margin-top: 20px;
+	margin-right: 15%;	
+	
+}
+
+
+
+
+.fondoent{
+	display: none;
+	margin-top: 0px;
+	height: 560px;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+	
+}
+
+
+
+.subent{
+	font-size: 15px;
+	color: white;
+	
+}
+
+.titent{
+	font-size: 25px;
+	color: white;
+	
+}
+
+
+.cuerpent{
+	font-size: 15px;
+	color: white;
+}
+
+
+.carousel{
+	margin: 10%;
+	width: 80%;
+	height: 60%;
+	
+}
+
+
+#ejcv{
+	width: 200px;
+	height: 50px;
+	margin: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#carta{
+	width: 200px;
+	height: 50px;
+	margin: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#busqlab p{ 
+	text-align: justify;
+	margin-left: 45px;
+}
+#consj{
+	width: 70%;
+	margin: 12%;
+	margin-bottom: 2%;
+}
+#busqlab #consj p{
+	text-align: justify;
+}
+#busqlab #consj ul{
+	text-align: justify;
+}
+
+.modal-dialog{
+	height: 1000px;
+	width: 800px;
+}
+
+.modal-content{
+	height: 100%;
+}
+
+
+
+
+.rita-circulo {
+     width: 210px; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/rita.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 100% 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.seba-circulo {
+     width: 210px; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/seba.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 0 100% 0 0;
+	 background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fabian-circulo {
+     width: 210px; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/fabian.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 0 0 0 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.santiago-circulo {
+     width: 210px; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/sanf.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 0 0 100% 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#circulo{
+	margin: 7% 34% 7% 34%;
+	
+}
+
+
+
+
+
+
+
+
+
+.footer{
+	
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	border-top: 3px solid darkred;
+	text-align: center;
+		
+	
+}
+
+.footer ul{
+	height: 80px;
+	margin:10px;
+	display: inline-flex;
+	list-style: none;
+}
+
+.footer ul li{
+	margin:10px;
+}
+
+.footer a{
+	color:black;
+	
+}
+
+.iconos{
+	width: 40px;
+	height: 40px;
+}
+
+.icono2{
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+}
+
+.jumbotron{
+	background-color: rgba(0,0,0,0.7);
+	width: 33.3%;
+	height: 650px;
+	margin-left: 33.3%;
+	margin-right: 33.3%;
+	
+	
+	
+}
+
+.display-3{
+	text-align: center;
+	color: white;
+	font-family:  'Poiret One', cursive;
+	
+	
+}
+
+
+.titcont{
+	color: white;
+	font-family:  'Julius Sans One', sans-serif;
+	font-size: 20px;
+	
+	
+}
+
+
+#inputname{
+	background-color: rgba(0,0,0,0.5);
+	width: 80%;
+	border: 2px solid grey;
+	color: white;
+}
+
+#inputEmail{
+	background-color: rgba(0,0,0,0.5);
+	width: 80%;
+	border: 2px solid grey;
+	color: white;
+	
+}
+
+#msjcontact{
+	background-color: rgba(0,0,0,0.5);
+	width: 80%;
+	border: 2px solid grey;
+	height: 150px;
+	color: white;
+}
+
+
+#msjenviado{
+	display: none;
+	color: grey;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#enviarmsj{
+	width: 85px;
+	height: 40px;
+	background-color: #CD5C5C;
+	color: white;
+	border: 0px;
+	margin: 20px;
+	
+}
+#enviarmsj:hover{
+	background-color: #C0392B;
+}
+
+#contacto{
+	width: 100%;
+	height: 760px;
+	background-image: url(img/fondocontacto.jpg);
+}
+form{
+	text-align: justify;
+	margin-left: 15%;
+}
