@@ -36,27 +36,13 @@
 	background-color: #fafafa;
 }
 
-.parallax1{ 
-   
-    background-image: url("img/82395.jpg");
-
-   
-    height: 662px; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-}
 
 #home {
-	text-align: center;
+	text-align: justify;
 }
 
 #home h1{
-	font-size: 98px;
+	font-size: 60px;
 	color: white;
 	font-family: "Refreshen and Softening";
 	
@@ -66,11 +52,36 @@
 #home p{
 	color:beige;
 	text-align: justify;
-	margin-left: 27%;
-	margin-right: 10%;
+	
+
 	
 	
 }
+
+
+#jumboinicio{
+	background-color: rgba(0,0,0,0.9);
+	margin-top:110px;
+	color: white;
+	
+}
+
+.meinicio{
+	 width: 53%; 
+     height: 53%; 
+     border: 2px solid white; 
+     background-image: url(img/sanf.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius:  100% 100% 100% 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-left: 23.5%;
+	margin-right: 23.5%;
+	margin-bottom: 10%;
+}
+
 
 .titulo{
 	text-align: center;
@@ -81,6 +92,14 @@
 	
 }
 
+/*HR*/
+
+.separacion{
+	width: 80%;
+	border: 0.7px dashed white;
+	
+}
+
 .rojo{
 	width: 80%;
 	height: 0.3px;
@@ -88,6 +107,7 @@
 }
 
 #conceptos{
+	
 	width: 100%;
 	height: 550px;
 	background-color: #fafafa;
@@ -180,21 +200,6 @@
 
 }
 
-.row{
-	width: 100%;
-}
-
-.card{
-	text-align: center;
-	width:200px;
-	height: 230px;
-	padding: 5px;
-	margin: 5px;
-	margin-left: 28%;
-	margin-top: 20px;
-	margin-right: 15%;	
-	
-}
 
 
 
@@ -216,11 +221,13 @@
 	font-size: 15px;
 	color: white;
 	
+	
 }
 
 .titent{
 	font-size: 25px;
 	color: white;
+	
 	
 }
 
@@ -228,7 +235,131 @@
 .cuerpent{
 	font-size: 15px;
 	color: white;
+	text-align: justify;
+	
 }
+
+
+.rita-circulo {
+     width: 50%; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/rita.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 100% 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.seba-circulo {
+     width: 50%; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/seba.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 0 100% 0 0;
+	 background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fabian-circulo {
+     width: 50%; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/fabian.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 0 0 0 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.santiago-circulo {
+     width: 50%; 
+     height: 210px; 
+     border: 2px solid #555; 
+     background-image: url(img/sanf.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius: 0 0 100% 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#circulo{
+	width: 33.3%;
+	margin: 5% 33% 0% 33%;
+	
+}
+
+.rita-semi{
+     width: 25%; 
+     height: 200px; 
+     border: 2px solid #555; 
+     background-image: url(img/rita.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius:  0 100% 100% 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.seba-semi{
+     width: 25%; 
+     height: 40%; 
+     border: 2px solid #555; 
+     background-image: url(img/seba.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius:  100% 100% 100% 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fabian-semi{
+     width: 25%; 
+     height: 40%; 
+     border: 2px solid #555; 
+     background-image: url(img/fabian.JPG);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius:  100% 100% 100% 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.santiago-semi{
+     width: 25%; 
+     height: 40%; 
+     border: 2px solid #555; 
+     background-image: url(img/sanf.jpg);
+     -moz-border-radius: 0 100% 0 0;
+     -webkit-border-radius: 0 100% 0 0;
+     border-radius:  100% 100% 100% 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 
 
 .carruselxl{
@@ -291,72 +422,6 @@
 
 
 
-.rita-circulo {
-     width: 210px; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/rita.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 100% 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-.seba-circulo {
-     width: 210px; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/seba.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 0 100% 0 0;
-	 background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.fabian-circulo {
-     width: 210px; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/fabian.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 0 0 0 100%;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-.santiago-circulo {
-     width: 210px; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/sanf.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 0 0 100% 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-#circulo{
-	margin: 7% 34% 7% 34%;
-	
-}
-
-
-
-
 
 
 
@@ -404,10 +469,11 @@
 #contactme{
 	background-color: rgba(0,0,0,0.7);
 	width: 33.3%;
-	height: 650px;
+	height: 520px;
 	margin-left: 33.3%;
 	margin-right: 33.3%;
-	
+	padding: 0px;
+	padding-top: 5px;
 	
 	
 }
@@ -416,7 +482,7 @@
 	text-align: center;
 	color: white;
 	font-family:  'Poiret One', cursive;
-	
+	font-size: 55px;
 	
 }
 
@@ -424,7 +490,7 @@
 .titcont{
 	color: white;
 	font-family:  'Julius Sans One', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	
 	
 }
@@ -449,7 +515,7 @@
 	background-color: rgba(0,0,0,0.5);
 	width: 80%;
 	border: 2px solid grey;
-	height: 150px;
+	height: 110px;
 	color: white;
 }
 
@@ -468,6 +534,7 @@
 	color: white;
 	border: 0px;
 	margin: 20px;
+	margin-left: 5px;
 	
 }
 #enviarmsj:hover{
@@ -476,10 +543,13 @@
 
 #contacto{
 	width: 100%;
-	height: 760px;
+	height: 560px;
 	background-image: url(img/fondocontacto.jpg);
 }
 form{
 	text-align: justify;
 	margin-left: 15%;
 }
+
+
+
