@@ -14,7 +14,7 @@
 
 .header nav a {
 	color: black;
-	font-family:  'Julius Sans One', sans-serif;
+	font-family:   'Poiret One', cursive;
 	font-size: 20px;
 	height: 100%;
 	margin: 2px;
@@ -173,6 +173,9 @@
 	height: 40px;
 }
 
+
+/*ENTREVISTAS*/
+
 #entrevistasbody{
 	text-align: center;
 	margin-top: 0px;
@@ -310,6 +313,7 @@
 #circulo{
 	width: 33.3%;
 	margin: 5% 33% 0% 33%;
+	
 	
 }
 
