@@ -69,12 +69,25 @@
 }
 
 
-#jumboinicio{
+#jumboobjetivos{
+	width: 90%;
+	height: 20%;
 	background-color: rgba(0,0,0,0.9);
-	margin-top:110px;
 	color: white;
+	margin: 100px 5% 0 5%;
+	
 	
 }
+
+#jumboobjetivos ul li{
+	margin: 25px;
+}
+#jumboobjetivos ul{
+	list-style: none;
+	
+}
+
+
 
 #jumbosm{
 	width: 60%;
@@ -101,6 +114,15 @@
 	margin: 0px 35% 20px 35%;
 }
 
+#jumbocontenido{
+	width: 60%;
+	height: 60%;
+	background-color: rgba(0,0,0,0.9);
+	
+	color: white;
+	margin: 110px 20% 0 20%;
+	
+}
 
 .titulo{
 	text-align: center;
