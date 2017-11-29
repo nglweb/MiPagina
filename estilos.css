@@ -12,9 +12,11 @@
 }
 
 .header nav{
-	padding: 8px 0 8px 0;
+	padding: 4px 0 8px 0;
 }
-
+.header nav ul{
+	padding: 1px 0 8px 0;
+}
 .header nav a {
 	color: white;
 	font-family:   'Poiret One', cursive;
@@ -32,11 +34,25 @@
 	background-color: darkred;
 }
 
-.header nav a h1{
-	color: white;
-	font-family: 'Kaushan Script', cursive;
+.icono2{
+	width: 90px;
+	height: 90px;
+	margin: 0 0 0 90%;
+}
+
+.icono2:hover{
+	-webkit-transform:scale(1.1);
+	
 	
 }
+
+.header navbar-brand{
+	width: 90px;
+	height: 90px;
+	margin: 0 0 0 100%;
+}
+
+
 
 /*INICIO*/
 
@@ -562,10 +578,9 @@ form{
 	height: 40px;
 }
 
-.icono2{
-	width: 80px;
-	height: 80px;
-	margin: 10px;
+
+.footer h1{
+	color: black;
+	font-family: 'Kaushan Script', cursive;
+	
 }
-
-
