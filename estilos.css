@@ -158,8 +158,8 @@
 /*HR*/
 
 .separacion{
-	width: 80%;
-	border: 0.7px dashed white;
+	width: 70%;
+	border: 0.7px dashed grey;
 	
 }
 
@@ -377,36 +377,39 @@
 }
 
 .carruselxl{
-	width: 80%;
-	height: 60%;
-	margin: 10%;
+	width: 60%;
+	height: 40%;
+	margin: 2% 20% 2% 20%;
 	
 }
 
 .carruselxs{
 	width: 60%;
 	height: 40%;
+	margin: 2% 20% 2% 20%;
 	
 	
 }
 
+.textbl{
+	width: 60%;
+	height: 40%;
+	margin: 2% 20% 2% 20%;
+	
+}
 
 
 
 #ejcv{
-	width: 200px;
+	width: 30%;
 	height: 50px;
-	margin: 35px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 15px 35% 15px 35%;
 }
 
 #carta{
-	width: 200px;
+	width: 30%;
 	height: 50px;
-	margin: 35px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 15px 35% 15px 35%;
 }
 
 #busqlab p{ 
@@ -415,8 +418,8 @@
 }
 #consj{
 	width: 70%;
-	margin: 12%;
-	margin-bottom: 2%;
+	
+	margin: 5% 15% 5% 15%;
 }
 #busqlab #consj p{
 	text-align: justify;
