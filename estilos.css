@@ -121,9 +121,27 @@
 	background-color: rgba(0,0,0,0.9);
 	
 	color: white;
-	margin: 110px 20% 0 20%;
+	margin: 110px 20% 50px 20%;
 	
 }
+
+.galeria{
+	width: 100%;
+	height: 100%;
+	filter: grayscale(90%);
+}
+
+.galeria:hover{
+	-webkit-transform:scale(1.3);transform:scale(1.3);
+	filter: grayscale(90%);
+	
+}
+
+.galery {
+	background-color: transparent;
+	border: none;
+}
+
 
 .titulo{
 	text-align: center;
@@ -199,7 +217,14 @@
 	margin-right: 0px;
 }
 
-.close{
+.info{
+	color: grey;
+	font-size: 12px;
+	text-align: center;
+	margin: auto;
+}
+
+#cerrar{
 	margin-top: 5px;
 	display: none;
 	

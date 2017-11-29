@@ -65,9 +65,9 @@ $("#ritaboton").click(function(){
 })
 	
 	/*Conceptos*/
-	$(".close").click(function(){
+	$("#cerrar").click(function(){
 		$(".text").hide();
-		$(".close").hide();
+		$("#cerrar").hide();
 	})
 	
 	$("#btncomp").click(function(){

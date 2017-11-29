@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<link rel="shortcut icon" href="img/LOGO.ico" />
+		<link rel="shortcut icon" href="img/ICONO.ico" />
 		
 		<link href="https://fonts.googleapis.com/css?family=Gruppo|Kaushan+Script|Lobster|Poiret+One" rel="stylesheet">
 		
@@ -135,6 +136,105 @@
 								<h1 class="display-3">Contenido</h1>
 								<hr class="rojo">
 								
+								<br>
+								<br>
+								
+								<div class="row">
+								<div class="col-md-4 sm-4">
+									<p>Nube de palabras</p>
+									<br>
+									<img src="img/nube.png" class="galeria"  type="button" data-toggle="modal" data-target="#nubepal">
+								
+									
+									<div id="nubepal"class="modal" tabindex="-1" role="dialog">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title">Nube de palabra</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<img src="img/nube.png">
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									</div>
+									
+									<div class="col-md-4 sm-4">
+										<p>Camino al éxito</p>
+										<br>
+										<img src="img/caminoexito.png" class="galeria" type="button" data-toggle="modal" data-target="#camexi" placeholder="Expandir">
+										
+										<div id="camexi" class="modal" tabindex="-1" role="dialog">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title">Camino al éxito</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<img src="img/caminoexito.png">
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								
+									
+										
+										
+									</div>
+									
+									<div class="col-md-4 sm-4">
+										<p>Tips para una entrevista laboral</p>
+										<br>
+										<img src="img/tips.png" class="galeria" type="button" data-toggle="modal" data-target="#tipslab" >
+									
+										<div id="tipslab" class="modal" tabindex="-1" role="dialog">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title">Tips para entrevista laboral</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<img src="img/tips.png">
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+										
+										
+									</div>
+								
+								
+								
+								
+								
+								</div>
+								<br>
+								<br>
+								<br>
+								<div class="row">
+								<div class="info">Haz click sobre la imagen para expandir.</div>
+								</div>
 							</div>
 						
 					</div>
@@ -153,6 +253,7 @@
 					<hr class="rojo">
 				
 					<div class="row">
+						
 						<div id="comp" class="col-md-4 mb-4">
 							<div class="row">
 								<div class="col-md-6 mb-6">
@@ -193,9 +294,12 @@
 				
 				
 						<div id="esp" class="col-md-4 mb-4">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<div class="info">Haz click sobre los botones para ver los conceptos.</div>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close" id="cerrar">
 								<span aria-hidden="true">&times;</span>
 							</button>
+							
+							
 					
 							<div id="compt" class="text">
 								<h5>Competencias</h5>
@@ -347,8 +451,8 @@
 				
 				
 				
-				
-				<div id="des" class="col-md-4 mb-4">
+					
+						<div id="des" class="col-md-4 mb-4">
 					
 					<div class="row">
 				
@@ -537,7 +641,7 @@ Dijo que el saber inglés es imprescindible para trabajar en computación, aunqu
 				
 			
 			</div>
-				
+					
 				<div id="busqlab">
 				<br>
 				<h1 class="titulo">Búsqueda laboral</h1>
@@ -731,6 +835,7 @@ Dijo que el saber inglés es imprescindible para trabajar en computación, aunqu
 					</div>	
 		
 				</div>
+
 				<div id="contacto">
 					<br>
 					<br>
@@ -779,7 +884,7 @@ Dijo que el saber inglés es imprescindible para trabajar en computación, aunqu
 				
 			
 	
-			<div class="footer">
+<div class="footer">
 					<div class="container">
 					<div class="row">
 					<div class="col-md-4 mb-4">
@@ -794,7 +899,7 @@ Dijo que el saber inglés es imprescindible para trabajar en computación, aunqu
 						
 						<div class="col-md-4 mb-4">
 						
-						<img src="img/LOGO.jpg" class="icono2">
+						<img src="img/LOGO.png" class="icono2">
 						
 					</div>
 						<div class="col-md-4 mb-4">
