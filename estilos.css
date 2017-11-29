@@ -72,7 +72,7 @@
 
 #jumboobjetivos{
 	width: 90%;
-	height: 20%;
+	height: 10%;
 	background-color: rgba(0,0,0,0.9);
 	color: white;
 	margin: 100px 5% 0 5%;
@@ -316,123 +316,42 @@
 }
 
 
-.rita-circulo {
-     width: 50%; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/rita.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 100% 0 0 0;
+.seleccion {
+     width: 80%; 
+     height: 80%; 
+     border: 2px solid black; 
+   
+    
 	 background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-
-
-.seba-circulo {
-     width: 50%; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/seba.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 0 100% 0 0;
-	 background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.fabian-circulo {
-     width: 50%; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/fabian.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 0 0 0 100%;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-.santiago-circulo {
-     width: 50%; 
-     height: 210px; 
-     border: 2px solid #555; 
-     background-image: url(img/sanf.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius: 0 0 100% 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-#circulo{
-	width: 33.3%;
-	margin: 5% 33% 0% 33%;
+	filter: grayscale(90%);
 	
 	
 }
 
-.rita-semi{
-     width: 25%; 
-     height: 200px; 
-     border: 2px solid #555; 
-     background-image: url(img/rita.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius:  0 100% 100% 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.seleccion:hover{
+	-webkit-transform:scale(1.3);transform:scale(1.3);
+	filter: none;
+	
 }
 
-.seba-semi{
-     width: 25%; 
-     height: 40%; 
-     border: 2px solid #555; 
-     background-image: url(img/seba.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius:  100% 100% 100% 100%;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.selecciontext{
+	width: 80%;
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+	margin: 40px 10% 0 10%;
+	
 }
 
-.fabian-semi{
-     width: 25%; 
-     height: 40%; 
-     border: 2px solid #555; 
-     background-image: url(img/fabian.JPG);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius:  100% 100% 100% 100%;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#conjseleccion{
+	margin: 10% 0 10% 0;
 }
 
-.santiago-semi{
-     width: 25%; 
-     height: 40%; 
-     border: 2px solid #555; 
-     background-image: url(img/sanf.jpg);
-     -moz-border-radius: 0 100% 0 0;
-     -webkit-border-radius: 0 100% 0 0;
-     border-radius:  100% 100% 100% 100%;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
+
+
 
 
 /*BUSQUEDA LABORAL*/

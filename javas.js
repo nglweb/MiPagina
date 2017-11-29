@@ -4,7 +4,7 @@ $(document).ready(function(){
 	/*Entrevistas*/
 	
 $("#ritaboton").click(function(){
-	$("#circulo").hide();
+	$("#conjseleccion").hide();
 	$("#entrrita").fadeIn();
 	
 	
@@ -13,7 +13,7 @@ $("#ritaboton").click(function(){
 	
 	
 	$("#sebaboton").click(function(){
-	$("#circulo").hide();
+	$("#conjseleccion").hide();
 	$("#entrseba").fadeIn();
 	
 	
@@ -21,19 +21,19 @@ $("#ritaboton").click(function(){
 })
 	
 	$("#fabianboton").click(function(){
-	$("#circulo").hide();
+	$("#conjseleccion").hide();
 	$("#entrfabian").fadeIn();
 		
 })
 	
 	$("#santiagoboton").click(function(){
-	$("#circulo").hide();
+	$("#conjseleccion").hide();
 	$("#entrsantiago").fadeIn();
 		
 })
 	
 	$("#entrseba").click(function(){
-	$("#circulo").fadeIn();
+	$("#conjseleccion").fadeIn();
 	$("#entrseba").hide();
 	
 	
@@ -41,7 +41,7 @@ $("#ritaboton").click(function(){
 })
 	
 	$("#entrrita").click(function(){
-	$("#circulo").fadeIn();
+	$("#conjseleccion").fadeIn();
 	$("#entrrita").hide();
 	
 	
@@ -49,7 +49,7 @@ $("#ritaboton").click(function(){
 })
 	
 	$("#entrfabian").click(function(){
-	$("#circulo").fadeIn();
+	$("#conjseleccion").fadeIn();
 	$("#entrfabian").hide();
 	
 	
@@ -57,7 +57,7 @@ $("#ritaboton").click(function(){
 })
 	
 	$("#entrsantiago").click(function(){
-	$("#circulo").fadeIn();
+	$("#conjseleccion").fadeIn();
 	$("#entrsantiago").hide();
 	
 	
