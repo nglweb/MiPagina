@@ -233,8 +233,44 @@ $("#ritaboton").click(function(){
 	})
 	
 	
+	/*CONTACTO*/
 	
 	
+	
+    $("#enviarmsj").click(function (){
+		var emailreg = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
+        $(".error").remove();
+        if( $("#inputname").val() == "" ){
+            $("#inputname").focus().after("<span class='error'>Ingrese su nombre</span>");
+            return false;
+        }else if( $("#inputEmail").val() == "" || !emailreg.test($("#inputEmail").val()) ){
+            $("#inputEmail").focus().after("<span class='error'>Ingrese un email correcto</span>");
+            return false;
+        
+        }else if( $("#msjcontact").val() == "" ){
+            $("#msjcontact").focus().after("<span class='error'>Ingrese un mensaje</span>");
+            return false;
+        }
+    });
+    $("#inputname, #msjcontact").keyup(function(){
+        if( $(this).val() != "" ){
+            $(".error").fadeOut();
+            return false;
+        }
+    });
+    $("#inputEmail").keyup(function(){
+        if( $(this).val() != "" && emailreg.test($(this).val())){
+            $(".error").fadeOut();
+            return false;
+        }
+    });
+	
+	function setSentSuccessMsg(){
+    $("msjenviado").css("visibility", "visible");
+    $("#inputname").val("");
+    $("#inputEmail").val("");
+    $("#msjcontact").val("");
+}
 	
 	
 	
