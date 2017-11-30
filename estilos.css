@@ -134,6 +134,24 @@
 	margin: 0px 35% 20px 35%;
 }
 
+#espanol{
+	width: 40px;
+	height: 40px;
+	margin:2px 2px 0 90%;
+	filter: grayscale(90%);
+
+}
+#ingles{
+	width: 40px;
+	height: 40px;
+	
+	margin: 2px 90% 0 2px;
+	
+}
+#english{
+	display: none;
+}
+
 #jumbocontenido{
 	width: 60%;
 	height: 60%;
@@ -558,15 +576,16 @@ form{
 }
 
 .footer ul{
-	height: 80px;
-	margin:10px;
-	display: inline-flex;
+	height: 100%;
+	height: 100%;
+	
 	list-style: none;
+	margin: 0px;
+	padding-top: 19px;
+	padding-bottom: 18px;
 }
 
-.footer ul li{
-	margin:10px;
-}
+
 
 .footer a{
 	color:black;
@@ -574,13 +593,16 @@ form{
 }
 
 .iconos{
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 }
 
 
 .footer h1{
 	color: black;
 	font-family: 'Kaushan Script', cursive;
+	margin: 5% 0 0% 0;
 	
+
 }
+

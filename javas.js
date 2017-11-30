@@ -1,5 +1,23 @@
 $(document).ready(function(){
 	
+	/*TRADUCCION*/
+	
+	$("#ingles").click(function(){
+		$("#spanish").hide();
+		$("#english").fadeIn();
+		$("#ingles").css({"filter":"grayscale(90%)"});
+		$("#espanol").css({"filter":"none"});
+	})
+	
+	$("#espanol").click(function(){
+		$("#spanish").fadeIn();
+		$("#english").hide();
+		$("#espanol").css({"filter":"grayscale(90%)"});
+		$("#ingles").css({"filter":"none"});
+	})
+
+	
+	
 	
 	/*Entrevistas*/
 	
