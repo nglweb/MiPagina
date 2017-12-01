@@ -235,11 +235,8 @@ $("#ritaboton").click(function(){
 	
 	/*CONTACTO*/
 	
-	$("#enviarmsj").click(function (){
-		$('#formulario');
-		
-	})
-	/*
+	
+	
     $("#enviarmsj").click(function (){
 		var emailreg = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
         $(".error").remove();
@@ -268,8 +265,13 @@ $("#ritaboton").click(function(){
         }
     });
 	
-	function setSentSuccessMsg(){
-    $("msjenviado").css("visibility", "visible");
+	
+	
+	
+	/*
+	
+	function enviarmsj(){
+    $("#msjenviado").fadeIn();
     $("#inputname").val("");
     $("#inputEmail").val("");
     $("#msjcontact").val("");
