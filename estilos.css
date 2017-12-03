@@ -206,6 +206,12 @@
 
 /*CONCEPTOS*/
 
+.espacio{
+	height: 75px;
+	width: 100%;
+	
+}
+
 
 #conceptos{
 	
@@ -213,7 +219,7 @@
 	height: 550px;
 	
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 
@@ -279,7 +285,7 @@
 
 #entrevistasbody{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 0px;
 	width: 100%;
 	height: 100%;
 	
@@ -411,7 +417,7 @@
 /*BUSQUEDA LABORAL*/
 
 #busqlab{
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 .carruselxl{
@@ -554,7 +560,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 100px 0 0 0;
+	margin: 0 0 0 0;
 }
 form{
 	text-align: justify;
